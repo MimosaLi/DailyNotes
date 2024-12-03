@@ -1,0 +1,15 @@
+MYSQL
+
+binlog
+errolog
+slowlog
+relaylog
+
+innodb:
+redolog
+undolog
+
+二阶段提交；
+redolog ---- prepare
+binlog
+redolog ---- commit 
