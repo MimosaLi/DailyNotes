@@ -13,3 +13,13 @@ undolog
 redolog ---- prepare
 binlog
 redolog ---- commit 
+
+
+MVCC： multi-version concurrency control 多版本并发控制
+
+数据库并发问题：
+1 读读：没有问题；
+2 读写：可能出现脏读、幻读、不可重复读；
+3 写写：更新丢失问题；
+
+
